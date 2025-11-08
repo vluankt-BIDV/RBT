@@ -38,7 +38,7 @@
             <!-- Ảnh đại diện/Placeholder -->
             <div class="w-24 h-24 mx-auto mb-4 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden border-4 border-white shadow-lg">
                 <!-- Bạn có thể thay thế placeholder này bằng ảnh đại diện thật của mình -->
-                <svg xmlns="https://drive.google.com/file/d/1D-Q8oF8-m5bWi-Bttdx5uK9mnwnG3ftu/view?usp=sharing" class="w-12 h-12 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
             </div>
@@ -60,35 +60,38 @@
 
     <script>
         // 1. Cấu hình thông tin cá nhân của bạn
-        const userName = "RBT BIDV SÔNG HÀN"; // Thay thế bằng tên của bạn
-        const userBio = "BIDV | RBT | SÔNG HÀN"; // Thay thế bằng tiểu sử ngắn
+        const userName = "Nguyễn Văn A"; // Thay thế bằng tên của bạn
+        const userBio = "Chuyên gia công nghệ | Yêu cà phê | Hà Nội"; // Thay thế bằng tiểu sử ngắn
 
         // 2. Danh sách các liên kết của bạn (THAY ĐỔI DỮ LIỆU Ở ĐÂY)
         // Dữ liệu được tổ chức thành Mảng các Nhóm (Group), mỗi nhóm có groupTitle và mảng links riêng.
         const linksData = [
             {
-                groupTitle: "XỬ LÝ CHUNG",
+                groupTitle: "Mạng Xã Hội",
                 links: [
                     {
-                        title: "Phối hợp xử lý hồ sơ tín dụng",
-                        url: "https://docs.google.com/spreadsheets/d/1yt5INmDWv6QaxDXdxNNwScqSrfznrqW5FhuMkveby54/edit?usp=sharing",
+                        title: "Kênh YouTube",
+                        url: "https://youtube.com/yourchannel",
                         iconClass: "youtube"
+                    },
+                    {
+                        title: "Trang Facebook Cá Nhân",
+                        url: "https://facebook.com/yourprofile",
+                        iconClass: "facebook"
                     },
                 ]
             },
             {
-                groupTitle: "QUÁN TRỊ TÍN DỤNG",
+                groupTitle: "Công Việc & Chuyên Môn",
                 links: [
                     {
-                        title: "NHẬT KÝ CÔNG VIỆC CỦA CÁN BỘ HỖ TRỢ VAY LS",
-                        url: "https://docs.google.com/spreadsheets/d/1MErJLhm9TelPZmF40W0v4quretFALgFKBD96Pr72whE/edit?usp=sharing
-
-",
+                        title: "Website Chính Thức Của Tôi",
+                        url: "https://your-main-website.com",
                         iconClass: "globe"
                     },
                     {
-                        title: "ĐÁNH GIÁ HIỆU QUẢ CỦA CÁN BỘ HỖ TRỢ VAY LS",
-                        url: "https://docs.google.com/spreadsheets/d/1TmIgee84N-o5TJCKe9SNj9LlRFNH_L67Vh7UnKRWFPY/edit?usp=sharing",
+                        title: "Hồ Sơ LinkedIn",
+                        url: "https://linkedin.com/in/yourprofile",
                         iconClass: "linkedin"
                     },
                 ]
