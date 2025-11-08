@@ -60,18 +60,18 @@
 
     <script>
         // 1. Cấu hình thông tin cá nhân của bạn
-        const userName = "Nguyễn Văn A"; // Thay thế bằng tên của bạn
-        const userBio = "Chuyên gia công nghệ | Yêu cà phê | Hà Nội"; // Thay thế bằng tiểu sử ngắn
+        const userName = "RBT BIDV SÔNG HÀN"; // Thay thế bằng tên của bạn
+        const userBio = "BIDV | RBT | SÔNG HÀN"; // Thay thế bằng tiểu sử ngắn
 
         // 2. Danh sách các liên kết của bạn (THAY ĐỔI DỮ LIỆU Ở ĐÂY)
         // Dữ liệu được tổ chức thành Mảng các Nhóm (Group), mỗi nhóm có groupTitle và mảng links riêng.
         const linksData = [
             {
-                groupTitle: "Mạng Xã Hội",
+                groupTitle: "XỬ LÝ CHUNG",
                 links: [
                     {
-                        title: "Kênh YouTube",
-                        url: "https://youtube.com/yourchannel",
+                        title: "Phối hợp xử lý hồ sơ tín dụng",
+                        url: "https://docs.google.com/spreadsheets/d/1yt5INmDWv6QaxDXdxNNwScqSrfznrqW5FhuMkveby54/edit?usp=sharing",
                         iconClass: "youtube"
                     },
                     {
